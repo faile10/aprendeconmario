@@ -1,0 +1,54 @@
+
+html{
+	background:#b8eafd;
+}
+
+/*formulario*/
+form{ 
+	margin: 80px auto;
+	width: 350px;
+	height: 300px;
+	background: darkorange;
+	border-bottom:10px solid #f05800;
+	border-left: 10px solid #f05800;
+	border-right: 10px solid #f05800;
+}
+/*inisiar sesion*/
+form label{ 
+	display: block;
+	color: white;
+	background: #f05800;
+	padding: 12px 40;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: cursive;
+}
+/*usuario y password*/
+form input[type="text"], input[type="password"]{
+	width: 320px;
+	padding: 10px 40px;
+	font-weight: bold;
+	font-family: cursive;
+	margin: 18px;
+	margin-bottom: 10px;
+}
+
+/*botones*/
+form button[type="submit"]{
+	background: #f05800;
+	color: white;
+	display: inline-block;
+	margin-left: 18px;
+	margin-bottom: 10px;
+	padding: 10px 23.5px;
+	border:none;
+	border-radius: 6px;
+
+}
+
+form button[type="submit"]:hover{
+background: darkorange;
+cursor:pointer;
+
+}

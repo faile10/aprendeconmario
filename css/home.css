@@ -1,0 +1,102 @@
+html{
+	background-color:#b8eafd;
+}
+.social{
+	position: fixed;
+	left: -30;
+	top:240px;
+	z-index: 2000;
+}
+.social ul{
+	list-style: none;
+	overflow: hidden;
+
+}
+.social ul li a{
+	display: inline-block;
+	color:#fff;
+	background: #000;
+	padding: 35px 45px;
+	text-decoration: none;
+	
+}
+
+.social ul li .icon-facebook-circled{background:#3b5998;}
+.social ul li .icon-twitter{background:#0290c9;}
+.social ul li .icon-gmail{background:#666666;}
+.social ul li .icon-gplus{background:#d95232;}
+.social ul li .icon-dropbox{background:#ae181f;}
+
+.social ul li a:hover {
+	padding: 35px 55px;
+	background:darkorange;
+}
+img {
+	width: 35.4cm;
+	height: 5cm;
+}
+
+
+
+	/*contenedores de tablas y instruciones de juego*/
+
+.t ul {
+	position: relative;
+	list-style: none;
+	margin: 10px;
+	padding: 0px;
+	left: 0px;
+	background-color:#00abf0;
+	width: 265px;
+
+}
+.t ul li{
+	display: inline-block;
+	border: 1px solid #fff;	
+}
+
+.t ul li a{
+	color: #fff;
+	display: block;
+	padding: 10px 60px;
+	text-decoration: none;
+	}
+ 
+.t ul li a:hover{
+	background-color: darkorange;
+
+}
+
+
+
+
+
+
+
+
+
+h1{
+color: #274b96;
+font-family: cursive;
+}
+
+
+.p  {
+	display:inline-block;
+
+}
+
+
+
+div p {
+	
+	height:200px;
+	width:350px;
+	background:#00abf0;
+	margin:25px;
+	padding:15px;
+	border: 05px solid #fff;
+	font-family: cursive;
+	color: white;
+
+}

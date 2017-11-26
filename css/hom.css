@@ -1,0 +1,42 @@
+html{
+	background-color: darkorange;
+}
+.social{
+	position: fixed;
+	left: -30;
+	top:240px;
+	z-index: 2000;
+}
+.social ul{
+	list-style: none;
+	overflow: hidden;
+
+}
+.social ul li a{
+	display: inline-block;
+	color:#fff;
+	background: #000;
+	padding: 35px 45px;
+	text-decoration: none;
+	
+}
+
+.social ul li .icon-facebook-circled{background:#3b5998;}
+.social ul li .icon-twitter{background:#00abf0;}
+.social ul li .icon-gmail{background:#666666;}
+.social ul li .icon-gplus{background:#d95232;}
+.social ul li .icon-dropbox{background:#ae181f;}
+
+.social ul li a:hover {
+	padding: 35px 55px;
+	background:#000;
+}
+img {
+	width: 35.8cm;
+	height: 5cm;
+}
+
+div {
+	width: 50%;
+	background: red;
+}
